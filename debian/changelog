@@ -1,3 +1,10 @@
+ipmitool (1.8.18-5ubuntu0.1) bionic; urgency=medium
+
+  * Report the manufacturer of NVIDIA BMCs as "NVIDIA Corporation",
+    not "Unknown". (LP: #1781293)
+
+ -- dann frazier <dannf@ubuntu.com>  Thu, 12 Jul 2018 18:37:42 -0600
+
 ipmitool (1.8.18-5build1) bionic; urgency=high
 
   * No change rebuild against openssl1.1.
